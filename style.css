@@ -90,3 +90,17 @@ a:hover, a:visited, a:link, a:active {
     border: none;
     border-radius: 2px;
 }
+
+.display {
+    text-align: center;
+    color: #16a864;
+}
+
+.wrapper {
+    margin: 0 9rem;
+    width: 50%;
+    background-color: #212121;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
