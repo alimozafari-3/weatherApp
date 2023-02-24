@@ -6,7 +6,8 @@
 }
 
 
-.container-fluid, body {
+.container-fluid,
+body {
 
     background-image: url(./img/bg7.jpg);
     background-size: cover;
@@ -44,7 +45,10 @@
     color: #e4eff7;
 }
 
-a:hover, a:visited, a:link, a:active {
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
     color: #d0e5f5;
 }
@@ -103,4 +107,15 @@ a:hover, a:visited, a:link, a:active {
     height: 40vh;
     margin: 50px auto;
     border-radius: 2px;
+}
+
+.wrapper h2 {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.wrapper p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
 }
