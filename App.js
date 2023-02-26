@@ -20,6 +20,16 @@ async function getweather() {
   setinfo(jsonresult);
 }
 
+function setinfo(data) {
+  let cityname = data["name"];
+  let description = data["weather"][0]["main"];
+  let temp = data["main"]["temp"];
+  let wind = data["wind"]["speed"];
 
+  cityOutput.innerHTML=`${cityname}:نام شعر`;
+  descOutput.innerHTML=`${description}:توضيحات `;
+  tempOutput.innerHTML= `${convertocol(temp).toFixed(1)}:دما`;
+  windOutput.innerHTML=`${wind}:باد km/h`;
+}
 
 btnAdd.addEventListener("click",getweather)
